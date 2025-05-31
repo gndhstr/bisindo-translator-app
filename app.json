@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "BISINDO",
+    "slug": "bisindo",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#e5e5e5"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9d5b7f00-21d8-4102-9f15-89c6c6eefde3"
+      }
+    }
+  }
+}
