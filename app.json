@@ -12,6 +12,9 @@
       "eas": {
         "projectId": "9d5b7f00-21d8-4102-9f15-89c6c6eefde3"
       }
+    },
+    "android": {
+      "package": "com.gndhstr.bisindo"
     }
   }
 }

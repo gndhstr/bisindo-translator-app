@@ -32,7 +32,7 @@ export default function App() {
           { compress: 1, format: ImageManipulator.SaveFormat.JPEG, base64: true }
         );
 
-        const response = await fetch("http://server.angelica.cloud:3000/predict", {
+        const response = await fetch("https://flaskapp.angelica.cloud/predict", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({ image: manipulated.base64 }),
